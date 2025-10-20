@@ -1,8 +1,6 @@
 import keyword
 import string
-
 name = input("введите строку: ")
-
 if name in keyword.kwlist:
     print(False)
     exit()
