@@ -16,11 +16,8 @@ for ch in name:
     if ch in string.punctuation.replace("_", "") or ch == " ":
         print(False)
         exit()
-if name.count("_") > 1:
-    print(False)
-    exit()
-
 print(True)
+
 
 
 
